@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watch &amp; Listen</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="video">
+      <div id="vimeo"></div>
+    </section>
+
+    <section class="controls">
+      <button id="play-both" class="primary">▶ Play both</button>
+      <button id="prev" title="Previous video">⏮</button>
+      <button id="next" title="Next video">⏭</button>
+      <button id="mute" title="Toggle video sound"></button>
+      <span id="now" class="now"></span>
+    </section>
+
+    <section class="audio">
+      <div id="spotify"></div>
+    </section>
+
+    <p class="hint">Full tracks play when you're logged in to Spotify in this browser; otherwise Spotify plays 30-second previews.</p>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="app.js"></script>
+  <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+</body>
+</html>
