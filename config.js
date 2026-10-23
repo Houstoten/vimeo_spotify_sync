@@ -9,7 +9,4 @@ window.SYNC_CONFIG = {
 
   // Your Spotify playlist. Paste the share link or a spotify:playlist:... URI.
   spotifyPlaylist: "https://open.spotify.com/playlist/5fBEbc7oJmjTZbn8TD9F98",
-
-  // Start with the video muted so the playlist is the soundtrack.
-  muteVideo: true,
 };

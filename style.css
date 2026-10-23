@@ -1,7 +1,6 @@
 :root {
   --bg: #0f0f12;
   --fg: #e8e6e3;
-  --muted: #8a8892;
   --accent: #1db954;
   --btn: #1e1e24;
 }
@@ -55,6 +54,4 @@ button.primary {
   font-weight: 600;
   padding: 10px 22px;
 }
-.now { color: var(--muted); margin-left: 4px; }
 .audio iframe { width: 100%; border-radius: 12px; }
-.hint { color: var(--muted); font-size: 13px; margin: 0; }
